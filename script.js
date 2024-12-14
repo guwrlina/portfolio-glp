@@ -52,7 +52,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 
-    // Horizontal scrolling for project containers
     projectContainers.forEach(container => {
         let isDown = false;
         let startX;

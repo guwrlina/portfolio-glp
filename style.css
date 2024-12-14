@@ -272,13 +272,13 @@ footer {
     justify-content: center;
     gap: 15px;
     padding: 20px;
-    background-color: #f8f9fa; /* Light gray background */
-    border-bottom: 2px solid #ddd; /* Subtle border */
+    background-color: #f8f9fa; 
+    border-bottom: 2px solid #ddd; 
 }
 
 /* Styling for each button */
 #category-nav .category-btn {
-    background-color: #007bff; /* Blue background */
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -296,18 +296,15 @@ footer {
     font-weight: bold;
 }
 
-/* Hover effect for buttons */
 #category-nav .category-btn:hover {
-    background-color: #0056b3; /* Darker blue */
+    background-color: #0056b3; 
     transform: scale(1.05);
 }
 
 /* Active button */
 #category-nav .category-btn.active {
-    background-color: #28a745; /* Green background for active button */
+    background-color: #28a745; 
 }
 
-/* Active button hover effect */
 #category-nav .category-btn.active:hover {
-    background-color: #218838; /* Darker green */
-}
+    background-color: #218838; 
