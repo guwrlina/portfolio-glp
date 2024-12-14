@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     anime.timeline({loop: false})
         .add({
             targets: '.typing .letter',
-            opacity: [0,1],
+            opacity: [0, 1],
             easing: "easeInOutQuad",
             duration: 2250,
-            delay: (el, i) => 150 * (i+1)
+            delay: (el, i) => 150 * (i + 1)
         });
 
     // Fade-in effect for sections
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     categoryButtons.forEach(button => {
         button.addEventListener('click', () => {
             const category = button.dataset.category;
-            
+
             categoryButtons.forEach(btn => btn.classList.remove('active'));
             button.classList.add('active');
 
@@ -52,8 +52,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 
-    // Smooth scrolling for project containers
-    const projectContainers = document.querySelectorAll('.project-container');
+    // Horizontal scrolling for project containers
     projectContainers.forEach(container => {
         let isDown = false;
         let startX;
@@ -85,4 +84,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
-
